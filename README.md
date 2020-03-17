@@ -18,6 +18,6 @@ docker run -it --gpus all --rm --net=host yingchao126/tensorrtserver:20.02-py3-c
 可以把里边的python包提取出来，就可以在外边使用了/workspace/install/python tensorrtserver-1.11.0-py3-none-linux_x86_64.whl
 pip install tensorrtserver-1.11.0-py3-none-linux_x86_64.whl
 之后就可以运行客户端测试demo
-python 
+python video_client.py
 
 ```
